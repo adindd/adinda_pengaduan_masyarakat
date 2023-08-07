@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,33 +11,35 @@
     <div class="input">
     <img src="register.png" style="width:80px; height:80px; margin-left:90px; margin-bottom:30px;"/>
         <h1>REGISTER</h1>
+        <form method="post" action="proses_register.php" class="user">
         <div class="box-input">
             <i class="fa fa-solid fa-address-card"></i>
-            <input type="text" placeholder="Nik">
+            <input name="nik" type="text" placeholder="Nik">
         </div>
         <div class="box-input">
             <i class="fa fa-solid fa-user"></i>
-            <input type="text" placeholder="Nama">
+            <input name="nama" type="text" placeholder="Nama">
         </div>
         <div class="box-input">
             <i class="fa fa-solid fa-at"></i>
-            <input type="text" placeholder="Username">
+            <input name="username" type="text" placeholder="Username">
         </div>
         <div class="box-input">
             <i class="fas fa-lock"></i>
-            <input type="password" placeholder="Password">
+            <input name="password" type="password" placeholder="Password">
         </div>
         <div class="box-input">
             <i class="fa fa-solid fa-phone"></i>
-            <input type="text" placeholder="Telepon">
+            <input name="telepon" type="text" placeholder="Telepon">
         </div>
-        <button type="submit" name="login" class="btn-input">Login</button>
+        <button type="submit" name="login" class="btn-input">Register</button>
         <div class="bottom">
             <center>
             <p>Sudah punya akun?
                 <a href="index.php">Login disini</a>
             </p>
             </center>
+        </form>
         </div>
     </div>
 </body>
