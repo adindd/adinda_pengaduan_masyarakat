@@ -12,13 +12,14 @@
     <img src="login.png" style="width:120px; height:120px; margin-left:75px; margin-bottom:30px;"/>
     <div class="container">
         <h1>LOGIN</h1>
+        <form method="post" action="proses_login.php" class="user">
         <div class="box-input">
             <i class="fa fa-solid fa-envelope"></i>
-            <input type="text" placeholder="Email">
+            <input name="email" type="text" placeholder="Email">
         </div>
         <div class="box-input">
             <i class="fas fa-lock"></i>
-            <input type="password" placeholder="Password">
+            <input name="password" type="password" placeholder="Password">
         </div>
         <button type="submit" name="login" class="btn-input">Login</button>
         <div class="bottom">
@@ -27,6 +28,7 @@
                 <a href="register.php">Register disini</a>
             </p>
             </center>
+        </form>
         </div>
     </div>
 </body>
