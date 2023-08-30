@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +11,7 @@
     <div class="input">
     <img src="register.png" style="width:80px; height:80px; margin-left:90px; margin-bottom:30px;"/>
         <h1>REGISTER</h1>
-        <form method="post" action="simpan_masyarakat.php" class="user">
+        <form method="post" action="proses_register.php" class="user">
         <div class="box-input">
             <i class="fa fa-solid fa-address-card"></i>
             <input name="nik" type="text" placeholder="Nik">
@@ -37,7 +36,7 @@
         <div class="bottom">
             <center>
             <p>Sudah punya akun?
-                <a href="index.php">Login disini</a>
+                <a href="login.php">Login disini</a>
             </p>
             </center>
         </form>
